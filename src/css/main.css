@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+:root {
+    /** Colors **/
+    --primary-color: #00ACFF;
+    --primary-dark-color: #0053B5;
+    --secundary-color: #807FCE;
+    --terciary-color: #3CA198;
+    --white-color: #FFFFFF;
+    --gray-color: #3B4856;
+    --bg-color: linear-gradient(to right top,
+    #986bd1, #9078d9, #8a85de, #8690e3, #849be5, #80a7e8,
+    #81b3e9, #87bde9, #94cbe7, #aad7e5, #c4e2e6, #dfeceb);
+}
+
+html, body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: 'Source Code Pro', monospace;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+}
+
+input, button {
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,112 @@
+/* Import  main.css */
+@import '../../css/main.css';
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo&display=swap');
+
+#initial {
+    position: absolute;
+    
+    width: 100vw;
+    height: 100vh;
+    background: url('menu/img/BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+    cursor: default;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#menu span {
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 10px;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+}
+
+#menu .options {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 4;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu .opt {
+    padding: 10px;
+    background: #5AfD5A80;
+    border-radius: 10px;
+    width: 280px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+}
+
+#menu .opt p {
+    font-family: 'Boogaloo', cursive;
+}
+
+#blocker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+
+#pause {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    cursor: default;
+}
+
+#pause span {
+    font-family: 'Fredoka One', cursive;
+}
+
+#pause .options {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#pause .opt {
+    padding: 10px;
+    background: #5AfD5A80;
+    border-radius: 10px;
+    width: 280px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+}
+
+#pause .opt:hover {
+    background: #044E04;
+    transition: 0.5s;
+}
+
+#pause .opt p {
+    font-family: 'Boogaloo', cursive;
+}
