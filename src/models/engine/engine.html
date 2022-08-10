@@ -1,55 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="../../fav-icon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="../../fav-icon.ico" type="image/x-icon" />
     <title>Project - Engine | ThreeJs</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div id="initial">
-        <div id="menu">
-            <span style="font-size:40px"> Mouse Project </span>
-            <br>
-			<div class="options">
-                <div class='opt' id="jogar">
-                    <p>Jogar</p>
-                </div>
-                <div class='opt' id="opcao">
-                    <p>Opções</p>
-                </div>
-                <div class='opt' id="creditos">
-                    <p>Créditos</p>
-                </div>
-                <div class='opt' id="sair">
-                    <p>Sair do jogo</p>
-                </div>
+      <div id="menu">
+        <span style="font-size: 40px"> Mouse Project </span>
+        <br />
+        <div class="options">
+          <div class="opt" id="jogar">
+            <p>Jogar</p>
+          </div>
+          <div class="opt" id="opcao">
+            <p>Opções</p>
+          </div>
+          <div class="opt" id="creditos">
+            <p>Créditos</p>
+          </div>
+          <div class="opt" id="sair">
+            <p>Sair do jogo</p>
+          </div>
+        </div>
+      </div>
+      <div id="info">
+        <span style="font-size: 40px"> <b>Créditos</b> </span>
+        <br />
+        <p>Developed by Erik Gabriel</p>
+        <br>
+        <a href="https://github.com/EriikGabriel">@EriikGabriel</a>
+        <br>
+        <div class="options">
+            <div class="opt" id="voltarMenu">
+                <p>Voltar para o menu</p>
             </div>
         </div>
+        </div>
+      </div>
     </div>
     <div id="blocker">
-		<div id="pause">
-			<span style="font-size:40px"> Mouse Project </span>
-			<br/>
-			<div class="options">
-                <div class='opt' id="retomar">
-                    <p>Retomar</p>
-                </div>
-                <div class='opt'>
-                    <p>Opções</p>
-                </div>
-                <div class='opt' id="voltar">
-                    <p>Voltar para o menu</p>
-                </div>
-            </div>
-	    </div>
+      <div id="pause">
+        <span style="font-size: 40px"> Mouse Project </span>
+        <br />
+        <div class="options">
+          <div class="opt" id="retomar">
+            <p>Retomar</p>
+          </div>
+          <div class="opt">
+            <p>Opções</p>
+          </div>
+          <div class="opt" id="voltar">
+            <p>Voltar para o menu</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <input type="hidden" value="false" id="play">
+    <input type="hidden" value="false" id="play" />
     <!-- Script Threejs, dat.GUI Graphic -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
     <script src="main.js" type="module"></script>
-    
-</body>
+  </body>
 </html>
